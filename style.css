@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bebas Neue';
-    flex: 1;
 }
 
 nav {
     
     background-color: black;
+    display: flex;
+    justify-content: end;
 }
 
 nav li {
@@ -24,6 +25,7 @@ nav li a {
 
 nav li a:hover {
     background-color: hotpink;
+    transition: 2s;
 
 }
 .dropdown-menu {
